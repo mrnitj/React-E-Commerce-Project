@@ -81,21 +81,21 @@ const AdminEdit = () => {
 
       <Cont_1 >
       
-      {/* {edit.map ((item) =>{    */}
+      
       <Inputs   >
     <form onSubmit={handleSubmit} action="" style={{width:'100%',height:'100%',display:'flex',flexDirection:'column'}}>
 
       <label htmlFor="">Item Id</label>
-      <input value={edit.id} onChange={editHandler} className="additem" type="number" name="pdId"  />
+      <input value={edit.id} onChange={editHandler} className="additem" type="number" name="id"  />
       <label  htmlFor="">Item Image/url path</label>
-      <input value={edit.img} onChange={editHandler} className="additem" type="text"  name="pdUrl"  />
+      <input value={edit.img} onChange={editHandler} className="additem" type="text"  name="img"  />
       <label htmlFor="">Item Name</label>
-      <input value={edit.title} onChange={editHandler} className="additem" type="text" name="pdTitle"   />
+      <input value={edit.title} onChange={editHandler} className="additem" type="text" name="title"   />
       <label htmlFor="">Item Price</label>
-      <input value={edit.price} onChange={editHandler} className="additem" type="number" name="pdPrice"  />
+      <input value={edit.price} onChange={editHandler} className="additem" type="number" name="price"  />
       <label htmlFor="">Item Model</label>
       
-      <select value={edit.model} onChange={editHandler} name="pdModel" id="">
+      <select value={edit.model} onChange={editHandler} name="model" id="">
                 <option value="dress">Dress</option>
                 <option value="footwear">Footwear</option>
                 <option value="toys">Toys</option>
