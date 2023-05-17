@@ -1,0 +1,72 @@
+.logo{
+    font-size: 30px;
+    background-color:rgb(228, 226, 226) ;
+    margin: 1rem;
+    padding-bottom: 0.23rem;
+}
+.nav-side{
+    display: flex;
+    margin: 1rem;
+    justify-content: space-evenly  ;
+}
+.cont-1{
+    margin: 0;
+    width: 100%;
+    display: flex;
+    background-image: url(assets/baby-store-hero-bg-blob-pink.svg);
+    height: 100vh;
+}
+
+.main-1{
+    display: flex;
+    margin: 3rem 5rem 0px;
+    width: 100%;
+}
+
+.left{
+    width: 50%;
+    /* background-color: lightblue; */
+    text-align: left;
+}
+.left-offer{
+    font-size: 8;
+    font-weight: bold;
+    color: lightcoral;
+}
+.left-head{
+    margin-top: 2rem;
+    font-family: 'Sriracha', cursive;
+    font-size: 70px;
+}
+.left-para{
+    margin-top: 1rem;
+    font-size: 20px;
+}
+.left-bottom{
+    margin-top: 2rem;
+    
+    display: flex;
+}
+.left-bottom p{
+    font-size: 25px;
+    color: lightcoral;
+    
+}
+.left-btn{
+    width:10rem;
+    background:lightcoral;
+    font-weight: bold;
+    color:white;
+    margin-right: 2rem;
+
+}
+
+
+.right{
+    width: 50%;
+    background-image: url(assets/baby-store-hero-baby-img.png);
+    background-position: center;
+    background-size: contain;
+    /* background-color: aqua; */
+    background-repeat: no-repeat;
+}

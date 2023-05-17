@@ -1,0 +1,22 @@
+h1,
+h3 {
+    margin: 3rem 0 3rem;
+}
+
+.btns {
+    padding: 10px;
+    border: 1px solid black;
+    border-style: solid;
+    background: transparent;
+    font-size: larger;
+    transition: background-color 0.15s;
+}
+
+.btns:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: rgb(0, 0, 0);
+}
+
+.btns:active {
+    background-color: rgb(199, 174, 136);
+}

@@ -1,0 +1,68 @@
+.userSearch{
+    width: 100%;
+    outline: none;
+}
+
+.ps1{
+    
+    /* background-color: aqua; */
+    width: 33.3%;
+    
+}
+.ps2{
+   
+    /* background-color: beige; */
+    text-align: left;
+    
+    width: 33.3%;
+}
+.ps3{
+    
+    /* background-color: blueviolet; */
+    width: 33.3%;
+}
+
+p{
+    margin:1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 7rem;
+}
+
+.userimage{
+    height: 100%;
+    /* background-color: lightcyan; */
+    background-image: url(/src/Components/assets/default-user-image.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.rightusr h2{
+    margin-bottom: 2rem;
+}
+
+.productsearch{
+    width:100%  ;
+    outline: none;
+}
+
+.additem{
+    outline: none;
+}
+
+.productQty{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.productQty input{
+    width: 2rem;
+    text-align: center;
+}
