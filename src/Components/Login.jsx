@@ -14,7 +14,7 @@ const Login = () => {
     const handleSubmit = () => {
         const Email = inputRef.current.email.value;
         const Password = inputRef.current.password.value;
-        
+
         const userDetails = signup.filter((item) => item.userEmail === Email && item.userPassword === Password);
 
         setAuth(true);
@@ -29,29 +29,28 @@ const Login = () => {
 
     return (
         <>
-        
-        <NavbarPage/>
-        <div className="container">
-            <form
-                ref={inputRef}
-                onSubmit={(e) => {
-                    e.preventDefault();
-                }}
-            >
-                <label htmlFor="email">E mail</label>
-                <input type="email" placeholder="Email" id="email" name="email" />
-                <label htmlFor="password">Password</label>
-                <input type="password" placeholder="password" id="password" name="password" />
-                <input type="checkbox" /> Remember Me
-                <button onClick={handleSubmit} className="click" type="submit">
-                    Login
-                </button>
-            </form>
+            <NavbarPage />
+            <div className="container">
+                <form
+                    ref={inputRef}
+                    onSubmit={(e) => {
+                        e.preventDefault();
+                    }}
+                >
+                    <label htmlFor="email">E mail</label>
+                    <input type="email" placeholder="Email" id="email" name="email" />
+                    <label htmlFor="password">Password</label>
+                    <input type="password" placeholder="password" id="password" name="password" />
+                    <input type="checkbox" /> Remember Me
+                    <button onClick={handleSubmit} className="click" type="submit">
+                        Login
+                    </button>
+                </form>
 
-            <label className="click2"> Don't have have an account?</label>
-            <Link to="/register"> Register here..</Link>
-        </div>
-        <Footer/>
+                <label className="click2"> Don't have have an account?</label>
+                <Link to="/register"> Register here..</Link>
+            </div>
+            <Footer />
         </>
     );
 };

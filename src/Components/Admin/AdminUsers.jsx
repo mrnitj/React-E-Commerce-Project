@@ -49,20 +49,22 @@ const Input = styled.div`
 
 const AdminUsers = () => {
     const Navigate = useNavigate();
-    const { signup} = useContext(Context);
-   
+    const { signup } = useContext(Context);
 
     return (
         <MainCont>
             <Input>
-                <input className="userSearch" type="text" placeholder="Search"  />
+                <input className="userSearch" type="text" placeholder="Search" />
             </Input>
             <Cont_1>
                 {signup.map((item) => (
                     <Cont_2>
                         <Cont_3>
-                            <FiUser onClick={() => Navigate(`/singleuser/${item.userName}`)} style={{ fontSize: "30px", margin: "1rem",cursor:"pointer"}} />
-                            
+                            <FiUser
+                                onClick={() => Navigate(`/singleuser/${item.userName}`)}
+                                style={{ fontSize: "30px", margin: "1rem", cursor: "pointer" }}
+                            />
+
                             <div className="ps1">
                                 <p>{item.userName}</p>{" "}
                             </div>
@@ -84,4 +86,3 @@ const AdminUsers = () => {
 };
 
 export default AdminUsers;
- 

@@ -46,8 +46,6 @@ const AdminEdit = () => {
 
     const [edit,setEdit]=useState(object[0]);
 
-
-
     const editHandler = (e) =>{
       const name = e.target.name;
       const value = e.target.value;
@@ -76,13 +74,9 @@ const AdminEdit = () => {
 
     <Main_Container>
     
-    
-
-
       <Cont_1 >
       
-      
-      <Inputs   >
+            <Inputs   >
     <form onSubmit={handleSubmit} action="" style={{width:'100%',height:'100%',display:'flex',flexDirection:'column'}}>
 
       <label htmlFor="">Item Id</label>

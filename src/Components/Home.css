@@ -1,15 +1,15 @@
-.logo{
+.logo {
     font-size: 30px;
-    background-color:rgb(228, 226, 226) ;
+    background-color: rgb(228, 226, 226);
     margin: 1rem;
     padding-bottom: 0.23rem;
 }
-.nav-side{
+.nav-side {
     display: flex;
     margin: 1rem;
-    justify-content: space-evenly  ;
+    justify-content: space-evenly;
 }
-.cont-1{
+.cont-1 {
     margin: 0;
     width: 100%;
     display: flex;
@@ -17,52 +17,49 @@
     height: 100vh;
 }
 
-.main-1{
+.main-1 {
     display: flex;
     margin: 3rem 5rem 0px;
     width: 100%;
 }
 
-.left{
+.left {
     width: 50%;
     /* background-color: lightblue; */
     text-align: left;
 }
-.left-offer{
+.left-offer {
     font-size: 8;
     font-weight: bold;
     color: lightcoral;
 }
-.left-head{
+.left-head {
     margin-top: 2rem;
-    font-family: 'Sriracha', cursive;
+    font-family: "Sriracha", cursive;
     font-size: 70px;
 }
-.left-para{
+.left-para {
     margin-top: 1rem;
     font-size: 20px;
 }
-.left-bottom{
+.left-bottom {
     margin-top: 2rem;
-    
+
     display: flex;
 }
-.left-bottom p{
+.left-bottom p {
     font-size: 25px;
     color: lightcoral;
-    
 }
-.left-btn{
-    width:10rem;
-    background:lightcoral;
+.left-btn {
+    width: 10rem;
+    background: lightcoral;
     font-weight: bold;
-    color:white;
+    color: white;
     margin-right: 2rem;
-
 }
 
-
-.right{
+.right {
     width: 50%;
     background-image: url(assets/baby-store-hero-baby-img.png);
     background-position: center;

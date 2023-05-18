@@ -1,27 +1,27 @@
-.product_img{
+.product_img {
     background-color: aqua;
     flex: 1;
 }
 
-.product_title{
+.product_title {
     flex: 1;
     background-color: rgb(87, 90, 90);
 }
 
-.product_qty{
+.product_qty {
     flex: 1;
     background-color: rgb(187, 180, 197);
 }
-.remove_btn{
+.remove_btn {
     flex: 1;
     background-color: rgb(147, 212, 174);
 }
 
-.productQty{
+.productQty {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.productQty input{
+.productQty input {
     width: 2rem;
 }

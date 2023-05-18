@@ -1,13 +1,11 @@
 import React, { useContext } from "react";
 
-
 import styled from "styled-components";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 
 import { useNavigate } from "react-router-dom";
 import { Context } from "./Context/Context_api";
-
 
 // import Context from './Context/Context_api';
 
@@ -25,7 +23,7 @@ const Cont_1 = styled.div`
 
 const ToysListItem = () => {
     const Navigate = useNavigate();
-    const {products} =useContext(Context)
+    const { products } = useContext(Context);
     const data = products.filter((item) => item.model === "toys");
 
     return (
