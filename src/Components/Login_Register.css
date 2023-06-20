@@ -1,5 +1,7 @@
 .main_conatiner {
     background-color: rgb(181, 160, 160);
+    padding: 0;
+    margin: 0;
 }
 
 .container {
@@ -8,8 +10,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    /* width: 100%; */
     background-color: rgb(181, 160, 160);
+    /* margin: 0; */
+    padding: 0;
 }
 
 label {

@@ -29,7 +29,10 @@ const Login = () => {
 
     return (
         <>
+            <div className="main_conatiner ">
+
             <NavbarPage />
+        
             <div className="container">
                 <form
                     ref={inputRef}
@@ -51,6 +54,7 @@ const Login = () => {
                 <Link to="/register"> Register here..</Link>
             </div>
             <Footer />
+            </div>
         </>
     );
 };

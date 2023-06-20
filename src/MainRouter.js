@@ -23,6 +23,7 @@ import Add_Product from "./Components/Admin/Add_Product";
 import User_Search from "./Components/User_Search";
 
 import AdminEdit from "./Components/Admin/AdminEdit";
+import BuyProducts from "./Components/BuyProducts";
 
 const MainRouter = () => {
     const [products, setProducts] = useState(productdatas);
@@ -75,7 +76,9 @@ const MainRouter = () => {
                     <Route path="/view/:id" element={<ViewDetails />} />
                     <Route path="/register" element={<Register />} />
 
-                    <Route path="/admin" element={<Admin />}></Route>
+                    <Route path="/admin" element={<Admin />}>
+
+                    </Route>
 
                     <Route path="/adminusers" element={<AdminUsers />} />
                     <Route path="products" element={<Products />} />
@@ -84,6 +87,7 @@ const MainRouter = () => {
 
                     <Route path="/user_search" element={<User_Search />} />
                     <Route path="/adminedit/:idedit" element={<AdminEdit />} />
+                    <Route path="/buyproducts" element={<BuyProducts/>}/>
                 </Routes>
             </Context.Provider>
         </div>

@@ -25,6 +25,8 @@ const Register = () => {
 
     return (
         <>
+        <div className="main_conatiner">
+
             <NavbarPage />
             <div className="container">
                 <form
@@ -48,6 +50,7 @@ const Register = () => {
                 <Link to="/login"> Login here..</Link>
             </div>
             <Footer />
+        </div>
         </>
     );
 };

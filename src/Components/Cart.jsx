@@ -129,7 +129,7 @@ const Cart = () => {
                     </Cont_2>
                 </Cont_1>
                 <div style={{ display: "flex", justifyContent: "flex-end", alignItems: "center", padding: "0 3rem 0 " }}>
-                    <p style={{ marginRight: "2rem" }}> Total: {total} </p>
+                    <p style={{ marginRight: "2rem" }}> Total: ₹ {total} </p>
                     
                     <Button onClick={() => {alert('You have purchased the items')
                 setCart([])
