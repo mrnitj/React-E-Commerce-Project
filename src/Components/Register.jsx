@@ -20,7 +20,7 @@ const Register = () => {
         const userPassword = inputRef.current.password.value;
 
         setSignup([...signup, { userName, userEmail, userPassword }]);
-        Navigate("/login");
+        Navigate("/login");                 
     };
 
     return (
