@@ -69,7 +69,7 @@ const Cart = () => {
         setCart(newqty);
     };
 
-    let total =0;
+    let total = 0;
 
     return (
         <>
@@ -78,7 +78,6 @@ const Cart = () => {
                 <Cont_1>
                     <Cont_2>
                         {cart.map((item) => (
-                            
                             <Product key={item.id}>
                                 <div
                                     style={{
@@ -122,18 +121,22 @@ const Cart = () => {
                                         Remove
                                     </Button>
                                 </div>
-                                <p style={{display:'none'}}>{total=total+item.qty*item.price}</p>
+                                <p style={{ display: "none" }}>{(total = total + item.qty * item.price)}</p>
                             </Product>
-
                         ))}
                     </Cont_2>
                 </Cont_1>
                 <div style={{ display: "flex", justifyContent: "flex-end", alignItems: "center", padding: "0 3rem 0 " }}>
                     <p style={{ marginRight: "2rem" }}> Total: ₹ {total} </p>
-                    
-                    <Button onClick={() => {alert('You have purchased the items')
-                setCart([])
-                }}>Buy Product</Button>
+
+                    <Button
+                        onClick={() => {
+                            alert("You have purchased the items");
+                            setCart([]);
+                        }}
+                    >
+                        Buy Product
+                    </Button>
                 </div>
             </MainContainer>
             <Footer />

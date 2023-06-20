@@ -53,7 +53,6 @@ const CategoryItem = ({ item }) => {
                     <Button>SHOP NOW</Button>
                 </Link>
             </Info>
-
         </Container>
     );
 };

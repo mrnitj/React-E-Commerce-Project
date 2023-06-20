@@ -30,30 +30,29 @@ const Login = () => {
     return (
         <>
             <div className="main_conatiner ">
+                <NavbarPage />
 
-            <NavbarPage />
-        
-            <div className="container">
-                <form
-                    ref={inputRef}
-                    onSubmit={(e) => {
-                        e.preventDefault();
-                    }}
-                >
-                    <label htmlFor="email">E mail</label>
-                    <input type="email" placeholder="Email" id="email" name="email" />
-                    <label htmlFor="password">Password</label>
-                    <input type="password" placeholder="password" id="password" name="password" />
-                    <input type="checkbox" /> Remember Me
-                    <button onClick={handleSubmit} className="click" type="submit">
-                        Login
-                    </button>
-                </form>
+                <div className="container">
+                    <form
+                        ref={inputRef}
+                        onSubmit={(e) => {
+                            e.preventDefault();
+                        }}
+                    >
+                        <label htmlFor="email">E mail</label>
+                        <input type="email" placeholder="Email" id="email" name="email" />
+                        <label htmlFor="password">Password</label>
+                        <input type="password" placeholder="password" id="password" name="password" />
+                        <input type="checkbox" /> Remember Me
+                        <button onClick={handleSubmit} className="click" type="submit">
+                            Login
+                        </button>
+                    </form>
 
-                <label className="click2"> Don't have have an account?</label>
-                <Link to="/register"> Register here..</Link>
-            </div>
-            <Footer />
+                    <label className="click2"> Don't have have an account?</label>
+                    <Link to="/register"> Register here..</Link>
+                </div>
+                <Footer />
             </div>
         </>
     );
