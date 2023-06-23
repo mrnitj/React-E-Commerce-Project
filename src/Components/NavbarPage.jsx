@@ -84,16 +84,16 @@ const NavbarPage = () => {
                         >
                             <GrUserAdmin />
                         </Nav.Link>
-                        <Form className="d-flex">
+                        <Form className="d-flex" style={{alignItems:"center"}}>
                             <Form.Control
-                                style={{ width: "15rem" }}
+                                style={{ width: "15rem"}}
                                 type="search"
                                 placeholder="Search"
                                 className="me-2"
                                 aria-label="Search"
                                 onChange={userSearchHandler}
                             />
-                            <Button variant="outline-success">
+                            <Button style={{height:'2rem',display:'flex'}} variant="outline-success">
                                 <FiSearch />
                             </Button>
                         </Form>

@@ -49,8 +49,8 @@ const Login = () => {
                         </button>
                     </form>
 
-                    <label className="click2"> Don't have have an account?</label>
-                    <Link to="/register"> Register here..</Link>
+                    <label className="click2"> Don't have have an account?  <Link to="/register" style={{textDecoration:'none'}}> Register here..</Link></label>
+                   
                 </div>
                 <Footer />
             </div>

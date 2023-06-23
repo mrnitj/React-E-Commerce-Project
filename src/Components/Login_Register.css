@@ -22,7 +22,7 @@ label {
 }
 
 input {
-    display: block;
+    display: flex;
     border: none;
     height: 2rem;
     border-radius: 5px;
@@ -46,7 +46,4 @@ input {
     border: none;
     margin: 1rem;
     transition: color 0.15s;
-}
-.click2:hover {
-    color: blue;
 }

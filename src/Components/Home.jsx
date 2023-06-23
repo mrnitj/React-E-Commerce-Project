@@ -13,8 +13,14 @@ const Home = () => {
     console.log(signup);
 
     return (
+        
+      
+        
+
+
         <>
-            <NavbarPage />
+<NavbarPage style={{}} />
+       
             <div className="cont-1">
                 <div className="main-1">
                     <div className="left">
@@ -48,6 +54,8 @@ const Home = () => {
 
             <Footer />
         </>
+        
+        
     );
 };
 

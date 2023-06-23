@@ -46,8 +46,8 @@ const Register = () => {
                         Register
                     </button>
                 </form>
-                <label>Already have an account ?</label>
-                <Link to="/login"> Login here..</Link>
+                <label>Already have an account ?  <Link to="/login" style={{textDecoration:'none'}}> Login here..</Link></label>
+               
             </div>
             <Footer />
         </div>
