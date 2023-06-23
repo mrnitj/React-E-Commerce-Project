@@ -29,16 +29,27 @@ const Info = styled.div`
     letter-spacing: 20px;
     align-items: center;
     justify-content: center;
+    &:hover{
+        transform: scale(1);
+    }
 `;
 const Title = styled.h1`
     color: #000000;
     margin: 1rem;
+    &:hover{
+        transform: scale(1.1);
+        /* color: #21291a; */
+    }
 `;
 const Button = styled.button`
     background: transparent;
     padding: 0.5rem;
     border-style: solid;
     background-color: rgba(255, 255, 255, 0.5);
+    transition: background-color 0.15s;
+    &:hover{
+        background-color: lightblue;
+    }
 `;
 
 // ----------------------------------------
@@ -54,6 +65,7 @@ const CategoryItem = ({ item }) => {
                 </Link>
             </Info>
         </Container>
+        
     );
 };
 
