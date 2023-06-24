@@ -43,7 +43,7 @@ const NavbarPage = () => {
         <div>
             <Navbar expand="lg" style={{ height: "6rem ", backgroundColor: "rgb(228, 226, 226)", zindex: "1000" }}>
                 <Container fluid style={{ padding: "0" }}>
-                    <div className="logo" style={{fontFamily: 'Josefin Sans' }}>Baby-Ku</div>
+                    <div className="logo" style={{fontFamily: 'Josefin Sans',cursor:'pointer' }} onClick={()=>Navigate('/')}>Baby-Ku</div>
                     <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse id="navbarScroll" style={{ backgroundColor: "rgb(228, 226, 226)" }}>
                         <Nav
