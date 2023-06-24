@@ -10,12 +10,23 @@ const Container = styled.div`
     margin: 3px;
     height: 70vh;
     position: relative;
+    background-color: rgba(235, 167, 167, 0.685);
+    /* border:1px solid black; */
+    border-radius: 50% 10% 50% 10%  ;
+    &:hover{
+        
+    }
+    
 `;
 
 const Image = styled.img`
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 10% 50% 10% 50%;
+    &:hover{
+               
+    }
 `;
 
 const Info = styled.div`
@@ -38,7 +49,8 @@ const Title = styled.h1`
     margin: 1rem;
     &:hover{
         transform: scale(1.1);
-        /* color: #21291a; */
+        
+        
     }
 `;
 const Button = styled.button`
@@ -65,7 +77,7 @@ const CategoryItem = ({ item }) => {
                 </Link>
             </Info>
         </Container>
-        
+
     );
 };
 
